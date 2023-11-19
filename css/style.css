@@ -1,0 +1,65 @@
+/* MARK HEADER */
+
+.navigation-header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: min-content;
+    background-color: greenyellow;
+}
+
+.navigation {
+    display: flex; 
+    gap: 10px; 
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.title-header {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+/* MARK MAIN */
+
+#main-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.review-section {
+    flex-basis: 60%;
+    flex-grow: 0;
+}
+
+.review-section img {
+    max-width: 100%;
+    max-height: 80%;
+}
+
+.message-us {
+    flex-basis: 30%;
+    flex-grow: 5;
+    background-color: darkcyan;
+    border-radius: 8px;
+    padding: 50px;
+    font-size: 150%;
+}
+
+.input-message-us {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: black;
+    font-size: 80%;
+    column-gap: 100px;
+}
